@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 100px;
+    box-shadow: 4px 4px 10px rgba(75, 33, 33, 0.342);
+    border-top: 4px solid royalblue;
+    text-shadow: 3px 3px 6px royalblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-wrap: 50px;
+    display: inline-block;
+    font-size: 52px;
+}
+nav div h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero_section {background-image:linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.308)), url("./Images/Lexus.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding: 170px 0px 0px 100px;
+}
+
+.hero_section  h1 {
+    font-size: 52px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero_section p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px opx;
+}
+
+.hero_section button {
+    background-color: orange;
+    padding: 10px;
+    margin: 10px 0px 0px 60px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 250px;
+    text-align: center;
+    hover
+}
+
+.hero_section button:hover {
+    background-color: darkred;
+}
+
+.about {
+    padding: 70px 0px 0px 100px;
+}
+
+.about h1 {
+    font-size: 37px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about h3 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2.0;
+}
+
+
+.about p {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    line-height: 2.0;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
